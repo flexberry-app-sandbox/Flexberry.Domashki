@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-domashki-дисциплина-e",
+  "editForm": "i-i-s-domashki-дисциплина-e",
+  "external": false,
+  "caption": "Дисциплина",
+  "name": "IISDomashkiДисциплинаL",
+  "className": "ДисциплинаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-domashki-дисциплина",
+      "modelProjection": "ДисциплинаL"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Domashki",
+  "applicationTitle": "Domashki",
+  "items": [
+    {
+      "link": null,
+      "menuName": "журнал-выполнения-д-з",
+      "caption": "Журнал выполнения ДЗ",
+      "title": "Журнал выполнения ДЗ",
+      "children": [
+        {
+          "link": "i-i-s-domashki-дисциплина-l",
+          "menuName": null,
+          "caption": "Дисциплина",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-domashki-журнал-l",
+          "menuName": null,
+          "caption": "Журнал ДЗ",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

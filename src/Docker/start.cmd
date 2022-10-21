@@ -1,0 +1,1 @@
+docker-compose -p domashki up -d

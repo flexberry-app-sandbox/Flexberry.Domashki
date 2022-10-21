@@ -1,0 +1,78 @@
+﻿{
+  "name": "IISDomashkiДомашка",
+  "modelName": "i-i-s-domashki-домашка",
+  "className": "Домашка",
+  "nameSpace": "IIS.Domashki",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "тема",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "оценка",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "журнал",
+      "relatedTo": "i-i-s-domashki-журнал",
+      "inverse": "домашка"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДомашкаE",
+      "modelName": "i-i-s-domashki-домашка",
+      "attrs": [
+        {
+          "name": "тема",
+          "caption": "Тема",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "оценка",
+          "caption": "Оценка",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

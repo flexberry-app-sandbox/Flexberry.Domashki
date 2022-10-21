@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-domashki-журнал-e",
+  "editForm": "i-i-s-domashki-журнал-e",
+  "external": false,
+  "caption": "Журнал",
+  "name": "IISDomashkiЖурналL",
+  "className": "ЖурналL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-domashki-журнал",
+      "modelProjection": "ЖурналL"
+    }
+  ]
+}

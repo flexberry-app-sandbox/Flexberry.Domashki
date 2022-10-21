@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Дисциплина",
+      "projection": "ДисциплинаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Журнал",
+  "name": "IISDomashkiЖурналE",
+  "className": "ЖурналE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-domashki-журнал",
+      "modelProjection": "ЖурналE"
+    }
+  ]
+}
